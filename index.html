@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Maliyakel Abraham - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">JMA</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Joy Maliyakel Abraham</h1>
+                <p class="hero-subtitle">Cybersecurity Student | Tech Enthusiast | Problem Solver</p>
+                <p class="hero-description">2nd Year Cybersecurity Student at Jyothi Engineering College, Thrissur</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm Joy, a passionate 2nd-year cybersecurity student at Jyothi Engineering College, Thrissur. 
+                        With a strong interest in information security and network protection, I'm dedicated to building 
+                        a career in cybersecurity.
+                    </p>
+                    <p class="about-text">
+                        What drives me is my passion for <strong>organizing and creating</strong> — whether it's organizing 
+                        security protocols, creating effective solutions to complex problems, or building projects that 
+                        make a difference. I believe in continuous learning and staying updated with the latest security trends.
+                    </p>
+                    <h3>Current Focus:</h3>
+                    <ul class="focus-list">
+                        <li>Network Security & Ethical Hacking</li>
+                        <li>Web Application Security</li>
+                        <li>Security Awareness & Best Practices</li>
+                        <li>Penetration Testing Fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🔐</div>
+                    <h3>Network Security</h3>
+                    <p>Firewalls, VPN, IDS/IPS, Network Architecture</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Systems & OS</h3>
+                    <p>Linux, Windows, System Hardening, Configuration</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Security</h3>
+                    <p>OWASP Top 10, SQL Injection, XSS, CSRF Prevention</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Threat Analysis</h3>
+                    <p>Risk Assessment, Vulnerability Scanning, Log Analysis</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Security Tools</h3>
+                    <p>Wireshark, Nmap, Metasploit, Burp Suite, OWASP ZAP</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📝</div>
+                    <h3>Scripting</h3>
+                    <p>Python, Bash, PowerShell, JavaScript Basics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Acquired Certifications</h2>
+            
+            <!-- Upload Certificates -->
+            <div class="upload-cert-section">
+                <div class="upload-container">
+                    <h3>Upload Your Certificates</h3>
+                    <div class="file-input-wrapper">
+                        <input type="file" id="certFileInput" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" />
+                        <label for="certFileInput" class="file-label">
+                            <span>📁 Choose Files or Drag & Drop</span>
+                        </label>
+                    </div>
+                    <p class="file-info">Supported formats: PDF, JPG, PNG, DOC, DOCX</p>
+                    
+                    <!-- Uploaded Files Display -->
+                    <div id="uploadedFilesList" class="uploaded-files-list"></div>
+                </div>
+            </div>
+
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">📜</div>
+                    <h3>Google IT Support Professional</h3>
+                    <p>Coursera | Enterprise IT Support</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎖️</div>
+                    <h3>CompTIA Security+</h3>
+                    <p>In Progress | Industry-Recognized Certification</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔐</div>
+                    <h3>Ethical Hacking Fundamentals</h3>
+                    <p>CEH Associate Track | Practical Skills</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🌐</div>
+                    <h3>Web Security Academy</h3>
+                    <p>PortSwigger | Web Application Security</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔍</div>
+                    <h3>Network Security Essentials</h3>
+                    <p>Cisco NetAcad | Network Fundamentals</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Data Protection & Privacy</h3>
+                    <p>GDPR & Security Awareness Training</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services & Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Security Auditing</h3>
+                    <p>Comprehensive security assessments and vulnerability evaluations for systems and networks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍🏫</div>
+                    <h3>Security Training</h3>
+                    <p>Educational sessions on cybersecurity basics, best practices, and awareness programs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Threat Analysis</h3>
+                    <p>Identification and analysis of potential security threats and risk mitigation strategies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>System Hardening</h3>
+                    <p>Configuration and optimization of systems for enhanced security posture.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Policy Development</h3>
+                    <p>Creating and organizing security policies and compliance documentation.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Technical Support</h3>
+                    <p>Assisting with security-related technical issues and implementations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Let's discuss your security needs and how I can help</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:joymaliyakelabraham@gmail.com">joymaliyakelabraham@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+919746858644">+91 9746858644</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🎓</div>
+                        <h3>Education</h3>
+                        <p>Jyothi Engineering College<br>Thrissur, Kerala</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🔗</div>
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/joy-abraham-a45229299" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Joy Maliyakel Abraham. All rights reserved.</p>
+            <p>Pursuing Excellence in Cybersecurity | Jyothi Engineering College, Thrissur</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
